@@ -1,0 +1,17 @@
+a{
+    color: rgb(64, 204, 21);
+    font-size: 38pt;
+}
+
+header{
+    background-color: aqua;
+}
+
+
+.link{
+    color: blue;
+}
+
+#li{
+    color: red;
+}
