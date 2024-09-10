@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo</title>
+    <link rel="stylesheet" href="assets/css/stule.css">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="logo">
+                <img class="tag-logo" src="assets/img/tag.png" alt="">
+            </div>
+            <nav>
+                <a href="">Home</a>
+                <a href="">Sobre</a>
+                <a href="">Contantos</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <h1>Começando no HTML</h1>
+        <p>HTML (Linguagem de Marcação de HiperTexto) é usado para construir as paginas web, com o HTML nós vamos marcando os elementos através de tags, que deverá aparecer no nosso site na web. O HTML tem uma função semantica para o nosso navegador indicando os elementos como textos, links, imagens. Textos pedem ser marcado com a tag <strong>&lt;p&gt;</strong>, <strong>&lt;img&gt;</strong> para imagens e <strong>&lt;h1&gt;</strong> para titulos por exemplo. Os arquivos onde escrevemos os codigos HTML sempre irão terminar com .html indicando que aquele arquivo tem código HTML</p>
+
+        <h2>Vamos conhecer a anatomia da tag</h2>
+        <img src="assets/img/anatomia-da-tag.png" alt="">
+        <p>Uma tag em HTML vai começar com o sinal de menor que &lt; e termina com o sinal de maior que &gt; dentro da tag de abertura e fechameto vai o conteúdo da tag, que pode ser uma outra tag.</p>
+        <h2>Tags podem ter atributos</h2>
+        <img src="assets/img/atributos-da-tag.png" alt="">
+        <p>Os atributos da tag são colocados depois do nome da tag. Os atributos servem para alterar o comportamento da tag ou fornecer metadados por exemplo &lt;div class="principal" id="principal"&gt; nesse caso class e id são o atributo e o que esta entre parentese o valor.</p>
+        <h2>Anatomia do documento HTML</h2>
+        <img id="corpo-html" src="assets/img/anatomia-documento-html.png" alt="">
+        <h3>As principais tags</h3>
+
+        <ul>
+            <p><li><b>&lt;!DOCTYPE html&gt;</b> — o doctype. É a parte inicial obrigatória do documento. Nas névoas do tempo, quando o HTML era novo (por volta de 1991/2), doctypes eram criados para agir como links para um conjunto de regras que a página HTML tinha que seguir para ser considerada um bom HTML, o que poderia significar checagem automática de erros e outras coisas úteis. No entanto, atualmente, eles não fazem muito sentido e são basicamente necessários apenas para garantir que o documento se comporte corretamente. Isso é tudo que você precisa saber agora.</li></p>
+
+            <p><b><li>&lt;html&gt;&lt;/html&gt;</b> — o elemento &lt;html&gt;. Esse elemento envolve todo o conteúdo da página e às vezes é conhecido como o elemento raiz.</li></p>
+
+            <p><li><b>&lt;head&gt;&lt;/head&gt;</b> — o elemento &lt;head&gt;. Esse elemento age como um recipiente de tudo o que você deseja incluir em uma página HTML que não é o conteúdo que você quer mostrar para quem vê sua página. Isso inclui coisas como palavras-chave e uma descrição que você quer que apareça nos resultados de busca, CSS para dar estilo ao conteúdo, declarações de conjuntos de caracteres e etc.</li></p>
+
+            <p><li><b>&lt;meta charset="utf-8"&gt;</b> — esse elemento define o conjunto de caracteres que seu documento deve usar para o UTF-8, que inclui praticamente todos os caracteres da grande maioria dos idiomas escritos. Essencialmente, agora ele pode manipular qualquer conteúdo textual que você possa colocar. Não há razão para não definir isso e assim pode ajudar a evitar alguns problemas no futuro.</li></p>
+            <p><li><b>&lt;title&gt;&lt;/title&gt;</b> — o elemento &lt;title&gt;. Ele define o título da sua página, que é o título que aparece na guia do navegador onde sua página é carregada. Ele também é usado para descrever a página quando você a adiciona aos favoritos.</li></p>
+            <p><li><b>&lt;body&gt;&lt;/body&gt;</b> — o elemento &lt;body&gt;. Contém todo o conteúdo que você quer mostrar ao público que visita sua página, seja texto, imagens, vídeos, jogos, faixas de áudio reproduzíveis ou qualquer outra coisa.</li></p>
+        </ul>
+        <h2>Fundamentos de textos no HTML</h2>
+        <h3>Titulos</h3>
+        <p>Existem seis elementos de título — &lt;h1&gt;, &lt;h2&gt;, &lt;h3&gt;, &lt;h4&gt;, &lt;h5&gt; e &lt;h6&gt; . Cada elemento representa um nível diferente de conteúdo no documento; &lt;h1&gt; representa o título principal, &lt;h2&gt; representa subtítulos, &lt;h3&gt; representa sub-subtítulos, e assim por diante.</p>
+
+        <h3>Pargrafos</h3>
+        <p>Os textos no nosso HTML são envolvidos com a tag &lt;p&gt; para indicar para o navegador que temos um paragrafo.</p>
+        <h3>Listas</h3>
+        <p>Muito do conteúdo da web é de listas e o HTML tem elementos especiais para elas. Listas de marcação sempre consistem em pelo menos 2 elementos. Os tipos mais comuns de lista são ordenadas e não ordenadas:</p>
+
+        <ol>
+            <li>Listas não ordenadas são para listas onde a ordem dos itens não importa, como uma lista de compras, por exemplo. Essas são envolvidas em um elemento &lt;ul&gt;.</li>
+            <li>Listas Ordenadas são para listas onde a ordem dos itens importa, como uma receita. Essas são envolvidas em um elemento &lt;ol&gt;.</li>
+        </ol>
+        <h3>A tag &lt;span&gt;</h3>
+        O elemento &lt;span&gt;. Não tem semântica. Você usa-o para agrupar conteúdo quando deseja aplicar o CSS (ou fazer algo com JavaScript) sem dar-lhe nenhum significado extra
+        <h3>A tag &lt;strong&gt;</h3>
+        <p>Para enfatizar palavras importantes, tendemos a enfatizá-las na linguagem falada e colocá-la em negrito na linguagem escrita. Para fazer isso no HTML temos a tag &lt;Strong&gt;</p>
+
+        <h2>É hora da atividade</h2>
+        <p>Vamos por em práttica o nosso conhecimento em HTML que adquirimos até aqui. Baixe esse <a href="../aula-10-09-24/atividade.zip" download="atividade">arquivo</a>, dentro dele há um arquivo HTML que etá faltando algumas tags, você deverá completar o arquivo com as tas que estão faltando.</p>
+        <p>A página deverá ficar parecido com a do <a target="_blank" href="../aula-10-09-24/texto.html">exemplo</a></p>
+    </main>
+</body>
+</html>
+
