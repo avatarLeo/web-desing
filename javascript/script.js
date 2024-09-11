@@ -8,3 +8,7 @@ function rotate(){
         div.setAttribute('class', 'rigth')
     }
 }
+
+alert('É noiz')
+let o = prompt("Informe o seu nome")
+document.write(o)
