@@ -1,0 +1,103 @@
+<h2 data-sourcepos="1:1-1:67" class="">Introdução ao JavaScript: A Linguagem que Dá Vida às Páginas Web</h2>
+<p data-sourcepos="3:1-3:23"><strong>O que é JavaScript?</strong></p>
+<p data-sourcepos="5:1-5:54">JavaScript é uma linguagem de programação interpretada, leve e multiplataforma, amplamente
+    utilizada para criar páginas web dinâmicas e interativas. Ela é uma das tecnologias core da web, ao lado do HTML
+    (estrutura) e do CSS (estilo), formando o trio que permite a construção de sites modernos e complexos.</p>
+<p data-sourcepos="7:1-7:28"><strong>Por que usar JavaScript?</strong></p>
+<ul data-sourcepos="9:1-9:159">
+    <li data-sourcepos="9:1-9:159"><strong>Interatividade:</strong> JavaScript permite criar elementos que respondem às
+        ações do usuário, como botões que executam funções, menus suspensos e formulários dinâmicos.</li>
+    <li data-sourcepos="10:1-10:111"><strong>Animações:</strong> Crie efeitos visuais impressionantes, como transições
+        suaves, animações 2D e 3D, e muito mais.</li>
+    <li data-sourcepos="11:1-11:154"><strong>Manipulação do DOM:</strong> Altere o conteúdo e a estrutura de uma página
+        web em tempo real, permitindo a criação de interfaces mais ricas e personalizadas.</li>
+    <li data-sourcepos="12:1-12:184"><strong>Validação de formulários:</strong> Verifique se os dados inseridos em um
+        formulário estão corretos antes de enviá-los para o servidor, evitando erros e garantindo a integridade dos
+        dados.</li>
+    <li data-sourcepos="13:1-13:48"><strong>Comunicação assíncrona:</strong> Faça requisições a servidores sem bloquear
+        a execução da página, permitindo a atualização de conteúdo em tempo real.</li>
+    <li data-sourcepos="14:1-14:157"><strong>Criação de jogos:</strong> Desenvolva jogos simples e complexos diretamente
+        no navegador, utilizando a vasta biblioteca de ferramentas e frameworks disponíveis.</li>
+    <li data-sourcepos="15:1-16:0"><strong>Aplicações web:</strong> Construa aplicações web completas, com interfaces
+        ricas e funcionalidades avançadas, como aplicativos de chat, editores de texto e muito mais.</li>
+</ul>
+<p data-sourcepos="17:1-17:31"><strong>Como funciona o JavaScript?</strong></p>
+<p data-sourcepos="19:1-19:202">O código JavaScript é inserido em um documento HTML, geralmente dentro de tags <code
+        class="">&lt;script&gt;</code>. O navegador web lê o código e o executa, interpretando as instruções e
+    manipulando o Document Object Model (DOM), que é a representação da página web em memória.</p>
+<p data-sourcepos="21:1-21:29"><strong>Onde aprender JavaScript?</strong></p>
+<p data-sourcepos="23:1-23:47">Existem diversas formas de aprender JavaScript:</p>
+<ul data-sourcepos="25:1-28:31">
+    <li data-sourcepos="25:1-25:138"><strong>Tutoriais online:</strong> Plataformas como MDN Web Docs, W3Schools e
+        freeCodeCamp oferecem tutoriais gratuitos e completos sobre JavaScript.</li>
+    <li data-sourcepos="26:1-26:132"><strong>Cursos online:</strong> Plataformas como Udemy, Coursera e edX oferecem
+        cursos pagos e gratuitos com diferentes níveis de profundidade.</li>
+    <li data-sourcepos="27:1-27:126"><strong>Livros:</strong> Existem diversos livros sobre JavaScript para todos os
+        níveis, desde iniciantes até desenvolvedores experientes.</li>
+    <li data-sourcepos="28:1-28:31"><strong>Comunidades:</strong> Participe de fóruns e comunidades online para tirar
+        dúvidas, compartilhar conhecimentos e aprender com outros desenvolvedores.</li>
+</ul>
+<p data-sourcepos="30:1-30:28"><strong>Começando com JavaScript</strong></p>
+<p data-sourcepos="32:1-32:295">Para começar a programar em JavaScript, você precisará de um editor de texto (como
+    Visual Studio Code, Sublime Text ou Atom) e um navegador web (como Chrome, Firefox ou Edge). Crie um arquivo HTML
+    simples, adicione algumas linhas de JavaScript e abra o arquivo no navegador para ver o resultado.</p>
+<p data-sourcepos="34:1-34:20"><strong>Exemplo simples:</strong></p>
+<div _ngcontent-ng-c4084720617=""
+    class="code-block ng-tns-c4084720617-28 ng-trigger ng-trigger-codeBlockRevealAnimation"
+    jslog="223238;track:impression;BardVeMetadataKey:[[&quot;r_40fa169269fb4c9c&quot;,&quot;c_5349e07ffd566224&quot;,null,&quot;rc_260e671dac073970&quot;,null,null,&quot;pt&quot;,null,1,null,null,0,0]]">
+    <div _ngcontent-ng-c4084720617=""
+        class="code-block-decoration header gmat-subtitle-1 ng-tns-c4084720617-28 ng-star-inserted"><span
+            _ngcontent-ng-c4084720617="" class="ng-tns-c4084720617-28">HTML</span></div><!---->
+    <div _ngcontent-ng-c4084720617="" class="code-block-internal-container ng-tns-c4084720617-28">
+        <div _ngcontent-ng-c4084720617="" class="animated-opacity ng-tns-c4084720617-28">
+            <pre data-language="javascript" _ngcontent-ng-c4084720617="" class="ng-tns-c4084720617-28"><code _ngcontent-ng-c4084720617="" role="text" data-test-id="code-content" class="code-container ng-tns-c4084720617-28" data-sourcepos="36:1-51:10"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">title</span>&gt;</span>Meu primeiro script<span class="hljs-tag">&lt;/<span class="hljs-name">title</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">onclick</span>=<span class="hljs-string">"clicar()"</span>&gt;</span>Clique aqui<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">script</span>&gt;</span><span class="javascript">
+        <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">clicar</span>(<span class="hljs-params"></span>) </span>{
+            alert(<span class="hljs-string">"Você clicou no botão!"</span>);
+        }
+    </span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span>
+</code></pre><!----><!----><!---->
+        </div>
+    </div>
+    <div _ngcontent-ng-c4084720617="" hide-from-message-actions=""
+        class="code-block-decoration footer gmat-overline ng-tns-c4084720617-28 hide-from-message-actions ng-star-inserted">
+        <div _ngcontent-ng-c4084720617="" class="ng-tns-c4084720617-28"><span _ngcontent-ng-c4084720617=""
+                class="ng-tns-c4084720617-28">Use o código <a _ngcontent-ng-c4084720617="" href="/faq#coding"
+                    target="_blank" rel="noopener" aria-label="com cuidado (abre em uma nova janela)"
+                    class="disclaimer-suffix ng-tns-c4084720617-28">com cuidado</a>.</span></div>
+        <div _ngcontent-ng-c4084720617="" class="buttons ng-tns-c4084720617-28"><!----><!----><!----><!----><button
+                _ngcontent-ng-c4084720617="" aria-label="Copiar o código" mat-icon-button=""
+                mattooltip="Copiar o código"
+                class="mat-mdc-tooltip-trigger copy-button ng-tns-c4084720617-28 mdc-icon-button mat-mdc-icon-button gmat-mdc-button-with-prefix mat-unthemed mat-mdc-button-base gmat-mdc-button"
+                mat-ripple-loader-uninitialized="" mat-ripple-loader-class-name="mat-mdc-button-ripple"
+                mat-ripple-loader-centered=""
+                jslog="179062;track:generic_click,impression;BardVeMetadataKey:[[&quot;r_40fa169269fb4c9c&quot;,&quot;c_5349e07ffd566224&quot;,null,&quot;rc_260e671dac073970&quot;,null,null,&quot;pt&quot;,null,1,null,null,1,0]];mutable:true"><span
+                    class="mat-mdc-button-persistent-ripple mdc-icon-button__ripple"></span><mat-icon
+                    _ngcontent-ng-c4084720617="" role="img" fonticon="content_copy"
+                    class="mat-icon notranslate google-symbols mat-ligature-font mat-icon-no-color" aria-hidden="true"
+                    data-mat-icon-type="font" data-mat-icon-name="content_copy"></mat-icon><span
+                    class="mat-focus-indicator"></span><span class="mat-mdc-button-touch-target"></span></button><!---->
+        </div>
+    </div><!---->
+</div>
+<p data-sourcepos="53:1-53:26"><strong>O futuro do JavaScript</strong></p>
+<p data-sourcepos="55:1-55:260">JavaScript continua evoluindo rapidamente, com novas funcionalidades e padrões sendo
+    adicionados a cada ano. O ECMAScript (padrão para JavaScript) é atualizado regularmente, garantindo que a linguagem
+    se mantenha moderna e relevante para o desenvolvimento web.</p>
+<p data-sourcepos="57:1-57:13"><strong>Conclusão</strong></p>
+<p><response-element _nghost-ng-c2158207078=""
+        ng-version="0.0.0-PLACEHOLDER"><!----><!----><!----><!----><!----><!----><!----><code-block
+            _ngcontent-ng-c2158207078="" _nghost-ng-c4084720617=""
+            class="ng-tns-c4084720617-28 ng-star-inserted"><!----><!----><!----></code-block><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----></response-element>
+</p>
+<p data-sourcepos="59:1-59:87">JavaScript é uma linguagem poderosa e versátil que abre um mundo de possibilidades para
+    desenvolvedores web. Se você está interessado em criar páginas web interativas e dinâmicas, o JavaScript é uma
+    ferramenta essencial para você.</p>
