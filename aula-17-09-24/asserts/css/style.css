@@ -1,0 +1,72 @@
+header{
+    background-color: #7798AB;
+    padding: 10px;
+}
+
+header img{
+    width: 40px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.card{
+    background-color: #fff;
+    width: 173px;
+    height: 290px;
+    border-radius: 15px;
+    display: inline-block;
+
+}
+
+.card img{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.content{
+    text-align: center;
+    font-size: 11pt;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.content h2{
+    font-size: 15pt;
+    font-family: "Inknut Antiqua", serif;
+    font-weight: 300;
+    font-style: normal;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.content p{
+    font-family: "Instrument Sans", sans-serif;
+    font-size: 11pt;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    line-height: 13pt;
+    margin-top: 5px;
+}
+
+body{
+    background-color: #C3DBC5;
+}
+
+.conteiner{
+    display: grid;
+    margin: 100px auto 0 auto;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+}
+
+.box{
+    width: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
