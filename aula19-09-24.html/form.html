@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        form{
+            max-width: 500px;
+        }
+    </style>
+</head>
+<body>
+    <form action="" method="post">
+        <fieldset>
+            <legend>Cadastro de clientes</legend>
+            <label for="name">Nome:
+                <input type="text" id="name">
+            </label>
+
+            <label for="email">Email:
+                <input type="email" id="email">
+            </label>
+
+            <label for="message">
+                Mensagem:
+                <textarea name="message" id="message"></textarea>
+            </label>
+
+            <fieldset>
+                <legend>Sexo</legend>
+                <label for="m">Masculino:
+                    <input type="radio" id="m" name="sexo">
+                </label>
+                <label for="f">Feminino:
+                    <input type="radio" id="f" name="sexo">
+                </label>
+            </fieldset>
+
+            <button name="enviar">enviar</button>
+            
+
+        </fieldset>
+    </form>
+      
+</body>
+</html>
