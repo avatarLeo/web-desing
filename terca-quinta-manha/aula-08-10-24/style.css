@@ -1,0 +1,28 @@
+tr, td, th, table{
+    border: 1px solid yellow;
+    border-collapse: collapse;
+}
+
+tr, td, th{
+    padding: 15px;
+}
+
+.rodape{
+    background-color: #fff;
+}
+
+.coluna1{
+    background-color: #ccc;
+}
+
+.coluna3{
+    background-color: green;
+}
+/* 
+.linha{
+    background-color: cadetblue;
+} */
+
+th {
+    background-color: yellow;
+}

@@ -1,0 +1,53 @@
+header{
+    display: flex;
+    flex-direction: row-reverse;
+}
+ul li a {
+    text-decoration: none;
+    font-size: 20pt;
+}
+ul li{
+    display: inline;
+    padding-right: 20px;
+}
+
+
+.text{
+    width: 500px;
+    height: 300px;
+    padding: 20px;
+}
+
+img{
+    width: 100%;
+}
+.imagen{
+    width: 500px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    font-size: 30pt;
+}
+
+h2{
+    font-size: 20pt;
+}
+
+p{
+    font-size: 15pt;
+}
+
+.button{
+    background-color: aqua;
+    border-radius: 15px;
+    width: 160px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

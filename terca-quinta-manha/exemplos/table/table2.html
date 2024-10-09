@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table{
+            border-collapse: collapse;/*Deixa as linhasda tabelas tudo juntas*/
+            border: 2px solid #ccc;
+        }
+        td{
+            border: 1px solid black;
+            padding: 10px;
+            text-align: left;
+            vertical-align: bottom;
+        }
+        th{
+            background-color: blue;
+            padding: 10px;
+            text-align: left;
+            vertical-align: bottom;
+            border: 1px solid black;
+        }
+
+        .first{
+            background-color: aqua;
+        }
+
+        .second{
+            background-color: cadetblue;
+        }
+    </style>
+</head>
+<body>
+    <!--Exemplo com preços e com notas-->
+
+    <!--td é uma celula da tabela, th é o cabeçalho da cellula-->
+    <table> <!--Define uma tabela-->
+        <caption>Titulo da tabela</caption>
+        <thead>
+            <tr> <!--Define uma linha de uma celula da tabela-->
+                <th>elemento</th><!--cabeçalho-->
+                <th>elemento</th>
+                <th>elemento</th>
+            </tr>
+        </thead>
+        <tr>
+            <td>novo elemento</td>
+            <td>novo elemento</td>
+            <td>novo elemento</td>
+        </tr>
+        <tr>
+            <td>novo elemento</td>
+            <td>novo elemento</td>
+            <td>novo elemento</td>
+        </tr>
+    </table>
+    <table>
+        <caption>segunda tabela</caption>
+        <colgroup>
+            
+            <col span="2" class="first"><!--define o numero de colunas-->
+            <col span="2" class="second">
+        </colgroup>
+        <tr>
+            <th>alguma coisa</th>
+            <th>alguma coisa</th>
+            <th>alguma coisa</th>
+            <th>alguma coisa</th>
+        </tr>
+        <tr>
+            <td>alguma coisa</td>
+            <td>alguma coisa</td>
+            <td>alguma coisa</td>
+            <td>alguma coisa</td>
+        </tr>
+        <tr>
+            <td>alguma coisa</td>
+            <td>alguma coisa</td>
+            <td>alguma coisa</td>
+            <td>alguma coisa</td>
+        </tr>
+
+        <tr>
+            <td>alguma coisa</td>
+            <td>alguma coisa</td>
+            <td>alguma coisa</td>
+            <td>alguma coisa</td>
+        </tr>
+
+        <tr>
+            <td>alguma coisa</td>
+            <td>alguma coisa</td>
+            <td>alguma coisa</td>
+            <td>alguma coisa</td>
+        </tr>
+        <tfoot>
+            <tr>
+                <td colspan="4">Rodapé</td><!--colspan e rowspan define o quanto um elemento vai se espandir para as outras coluna e linhas respeectivamente-->
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

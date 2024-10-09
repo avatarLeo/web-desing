@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media</title>
+    <style>
+        label, input, button{
+            display: block;
+            margin: 20px 0 0 0;
+            font-size: 20pt;
+            border-width: 3px;
+            border-radius: 10px;
+            padding: 10px;
+            border-color: blueviolet;
+        }
+        .conteiner{
+            width: 300px;
+            margin: auto;
+        }
+
+        input:focus{
+            border-style: solid;
+            border-width: 3px;
+            border-color: red;
+            background-color: rgba(166, 255, 0, 0.418);
+        }
+    </style>
+</head>
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Media</title>
+    </head>
+    <body>
+        <div class="conteiner">
+            <form action="" id="media">
+                <label for="n1">Nota 1</label><input name="n1" id="n1" type="text">
+                <label for="n1">Nota 2</label><input name="n2" id="n2" type="text">
+                <label for="n3">Nota 3</label><input name="n3" id="n3" type="text">
+                <button type="submit">Media</button>
+            </form>
+            <div class="resposta">
+                <h2 id="res">Resposta</h2>
+            </div> 
+        </div>
+        <script src="media.js"></script>
+    </body>
+    </html>
+</body>
+</html>
