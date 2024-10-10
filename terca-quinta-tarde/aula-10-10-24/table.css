@@ -1,0 +1,24 @@
+table, td,th{
+    border: 2px solid #BFE338;
+    border-collapse: collapse;
+}
+
+td, th {
+   padding: 10px; 
+}
+
+th{
+    background-color: #BFE338;
+}
+
+.coluna1{
+    background-color: aqua;
+}
+
+.coluna2{
+    background-color: #BFE338;
+}
+
+.coluna3{
+    background-color: antiquewhite;
+}

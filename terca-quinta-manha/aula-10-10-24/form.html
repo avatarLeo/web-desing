@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 80%;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        
+        <form action="exemplo" method="post">
+            <label for="nome">Nome</label>
+            <input id="nome" value="Meu nome" type="text">
+
+            <label for="email">email</label>
+            <input placeholder="Email" type="email">
+
+            <label for="menssagem">menssagem</label>
+            <textarea name="" id="">Escreva aqui</textarea>
+
+            <label for="">Senha</label>
+            <input type="password">
+
+            <fieldset>
+                <legend>Sexo</legend>
+                <label for="M">Masculino</label><input name="sexo" id="M" type="radio">
+                <label for="F">Feminino</label><input name="sexo" id="F" type="radio">
+            </fieldset>
+
+            <button onclick="mudaCor()" type="" >Button</button>
+            <button type="submit">Click me</button>
+        </form>
+    </div>
+</body>
+</html>
