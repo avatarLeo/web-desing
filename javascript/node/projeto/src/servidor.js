@@ -1,12 +1,10 @@
 const porta = 3003
 
 const espress = require('express')
-// const bodyParser = require('body-parser')
+
 const bancoDeDados = require('./bancoDeDados')
 
 const app = espress()
-
-// app.use(bodyParser.urlencoded({extended: true}))
 
 app.get('/produtos', (req, res, next) => {
     res.send(bancoDeDados.getProdutos())// convert para json

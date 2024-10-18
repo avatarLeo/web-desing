@@ -1,0 +1,43 @@
+header{
+    background-color: rgb(8, 3, 32);
+    padding-left: 15px;
+}
+
+aside{
+    height: calc(100vh - 120px);
+    background-color: rgb(8, 3, 32);
+    width: 200px;
+    opacity: 0;
+    transform: translateX(-250px);
+    transition: 1s;
+}
+
+.surgir{
+    transform: translateX(0);
+    opacity: 1;
+}
+
+nav a{
+    display: block;
+    padding: 10px;
+    font-size: 20pt;
+    color: #fff;
+    text-decoration: none;
+    background-color: rgb(20, 13, 54);
+    border: 2px solid rgb(25, 92, 146);
+}
+
+nav a:hover{
+    background-color: #fff;
+    color: black;
+    text-decoration: underline;
+}
+
+#botao-menu img:hover{
+    background-color: rgb(19, 117, 173);
+    cursor: pointer;
+}
+
+#menu{
+    display: none;
+}

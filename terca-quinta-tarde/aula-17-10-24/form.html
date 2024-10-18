@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <form action="http://www.google.com/search">
+        <label for="pesquisa">Pesquisa</label>
+        <input name="q" id="pesquisa" type="text">
+        <input type="date">
+        <input type="file">
+        <input type="email">
+        <input type="number">
+        <label for="">senha</label>
+        <input type="password">
+
+        <fieldset>
+            <legend>Sexo</legend>
+            <label for="m">Masculino</label>
+            <input name="sexo" id="m" type="radio">
+
+            <label for="f">Feminino</label>
+            <input name="sexo" id="f"
+            type="radio">
+        </fieldset>
+        <fieldset>
+            <legend>Cor</legend>
+            <input type="color">
+        </fieldset>
+        <fieldset>
+            <legend>Produtos</legend>
+            <select name="" id="">
+            <optgroup label="Cosmeticos">
+                <option value="">Sabonete</option>
+                <option value="">Shampoo</option>
+                <option value="">Condicionador</option>
+            </optgroup>
+            <optgroup label="Básicos">
+                <option value="">Açucar</option>
+            </optgroup>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Tarefas</legend>
+            <label for="">Escovar os dentes</label>
+            <input type="checkbox">
+            <label for="">Tomar banho</label>
+            <input type="checkbox">
+        </fieldset>
+
+        <button type="submit">Pesquisar</button>
+    </form>
+</body>
+</html>

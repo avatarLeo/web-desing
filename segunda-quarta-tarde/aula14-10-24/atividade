@@ -1,0 +1,24 @@
+1) Desenvolva um algoritmo que leia dois números inteiros e mostre o somatório
+entre eles.
+Ex:
+Digite um valor: 8
+Digite outro valor: 5
+A soma entre 8 e 5 é igual a 13.
+
+2) Crie um programa que leia o nome e o salário de um funcionário, mostrando no
+final uma mensagem.
+Ex:
+Nome do Funcionário: Maria do Carmo
+Salário: 1850,45
+O funcionário Maria do Carmo tem um salário de R$1850,45 em Junho.
+
+3) Faça um algoritmo que leia quanto dinheiro uma pessoa tem na carteira (em R$)
+e mostre quantos dólares ela pode comprar. Considere US$1,00 = R$3,45.
+
+4)Crie um escript que altera a borda e uma div, a cor de fundo e o cor e o tamanho da font, quando um usuário clicar em um botão
+
+5)Vamos criar um botão que quando clicado vai alternar entre duas imagens no meu site.
+
+6)Crie um botão que quando clicado vai fazer uma dive se mover lateralment.
+
+7)Crie um botão que quando clicado vai fazer uma dive se mover verticalmente.

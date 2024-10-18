@@ -1,0 +1,20 @@
+.borda{
+    border: 3px dotted yellow;
+    background-color: hwb(90 1% 0% / 0.452);
+}
+
+.botao{
+    width: 100px;
+    height: 20px;
+    background-color: bisque;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 15px;
+}
+
+.botao:hover{
+    background-color: chartreuse;
+    color: #fff;
+    border: 1px solid black;
+    cursor: pointer;
+}

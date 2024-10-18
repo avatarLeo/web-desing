@@ -1,0 +1,21 @@
+div{
+    height: 200px;
+    width: 500px;
+    background-color: brown;
+    margin: 30px auto 0 auto;
+    font-size: 20pt;
+    color: #fff;
+    text-align: center;
+}
+
+.destaque{
+    border: 5px solid green;
+    color: blue;
+    background-color: #fff;
+}
+
+.nova-div{
+    background-color: blue;
+    color: #fff;
+    border: 5px solid yellowgreen;
+}
