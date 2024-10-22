@@ -1,0 +1,86 @@
+.gradiente{
+    width: 300px;
+    height: 200px;
+    background: linear-gradient(160deg, red, green 30%, yellow);
+    color: red;
+}
+/* posso colocar um angulo no lugar da direção e posso passar a porcentagem das cores */
+
+/* background-image: linear-gradient(direction, color-stop1, color-stop2, ...); */
+
+/* background: rgb(238,174,202); */
+/* background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); */
+
+
+/* projeto */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    border-bottom: 1px solid #141e2654;
+    padding: 10px;
+}
+
+.fundo{
+    height: 100vh;
+    width: 100%;
+    background-image: url('../img/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav a{
+    font-size: 24pt;
+    margin: 10px;
+    text-decoration: none;
+    color: #141E26;
+}
+
+article{
+    width: 50%;
+    padding: 10px;
+    margin: 200px auto;
+    backdrop-filter: blur(1px);
+    border-radius: 15px;
+    color: #141E26;
+    text-align: center;
+}
+
+h1{
+    font-size: 28pt;
+    text-transform: uppercase;
+}
+
+p{
+    text-indent: 10px;
+    line-height: 25px;
+    font-size: 14pt;
+}
+
+         
+.btn-grad {
+    background-image: linear-gradient(to right, #AAB5BF 0%, #5E7B8C  51%, #AAB5BF  100%);
+    margin: 80px auto;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-color: #5E7B8C;
+    border-radius: 10px;
+    display: block;
+  }
+
+  .btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+  }
+ 
