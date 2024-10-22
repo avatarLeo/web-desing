@@ -1,0 +1,15 @@
+flexbox
+	É um conteiner onde podemos organizar os seus filhos.
+	Direção do eixo principal
+	a direção é gerenciada pelo flex direction
+		colunm, colunm-reversion(se comporta como coluna mas
+		 inverte a direção), row, se comporta como linha e o row 
+		 reverse inverte a linha
+	 justify-content: flex-end, center, space-between, space-around, start, space-evenly
+	 
+	 propriedade dos filhos
+	 	order: 1; ordem dos elementos
+		flex-grow: 1; permite que os elementos cresçam
+		flex-shrink: 1; permite que os elementos diminuam
+		flex-basis: 200px; define um valor de base para o tamanho
+		shorthand flex: grow shinc basis
