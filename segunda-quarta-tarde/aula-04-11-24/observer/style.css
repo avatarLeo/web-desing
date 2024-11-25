@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000;
+}
+
+section{
+    height: 100vh;
+    color: #fff;
+    width: 60%;
+    margin: auto;
+    transition: 1s;
+}
+
+.hidden{
+    opacity: 0;
+    transition: 2s;
+    filter: blur(15px);
+
+}
+
+.show{
+    opacity: 1;
+    filter: blur(0);
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js</title>
+</head>
+<body onclick="ola()">
+    <h1>Olá, Mundo!</h1>
+    <h1>Me livrei da maldição</h1>
+    <h1>Agora eu sou desenvolvedor</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis quia quis perferendis, soluta, tempora quod a accusantium sint facilis, rerum delectus sed eveniet non dignissimos temporibus incidunt illum id repellat.</p>
+
+<script>
+    function ola(){
+        let h1 = document.getElementsByTagName('h1')
+        for(let i in h1){
+            h1[i].style.background = 'red'
+            h1[i].style.color = 'white'
+        }
+        
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: aileron-semiBold;
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+/*unidade de medida
+    unidades relativas
+        em: essa unidade é relativa ao elemento pai do elemento
+        rem: relativa ao elemento root
+        para utilizar o rem como px colocamos 62.5% do root
+        scroll-behavior: smooth; isso faz a pagina rolar suavimente
+*/
+
+@font-face {
+    font-family: aileron-semiBold;
+    src: url('../fonts/aileron/Aileron-SemiBold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: aileron-regular;
+    src: url('../fonts/aileron/Aileron-Regular.otf') format('opentype');
+}
+
+.init{
+    height: 100vh;
+    background: url('../img/escritorio.jpg') no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column-reverse;
+    position: relative;
+}
+
+.init::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: radial-gradient(#14141400, #14141496);
+}
+
+.init-content h1{
+    font-size: 7rem;
+    color: #fff;
+    margin-bottom: 3rem;
+    position: absolute;
+    bottom: 80px;
+    z-index: 2;
+}
+
+.init-content{
+    padding: 40px;
+}
+
+.init-content p{
+    font-size: 2rem;
+    color: #fff;
+    font-family: aileron-regular;
+}
+
+/*prifile*/
+
+.profile{
+    min-height: 100vh;
+    background-color: #141414;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.picture{
+    width: 600px;
+}
+
+.picture>img{
+    width: 100%;
+}
+
+.content-profile{
+    width: 40%;
+}
+
+.content-profile>h2{
+    font-size: 6rem;
+}
+
+.content-profile>p{
+    font-size: 1.6rem;
+}
+
+.content-profile>button{
+    margin-top: 40px;
+    padding: 10px 30px 10px 30px;
+    background-color: #ffffffa9;
+    color: #fff;
+    border: none;
+}
+
+/*Services*/
+
+.services{
+    height: 100vh;
+    background-color: #141414;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.services-picture>img{
+    width: 550px;
+}
+
+.services-picture>h2{
+    font-size: 6rem;
+    margin-bottom: 30px;
+}
+
+.item>h3{
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.item>p{
+    font-size: 1.2rem;
+    margin-left: 44px;
+}
+
+.services-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 90%;
+    width: 500px;
+}
+
+.item>h3>span{
+    color: #5f5e5e;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div onclick="move()" class="caixa"></div>
+</body>
+<script>
+    function move(){
+        div = document.getElementsByClassName('caixa')[0]
+        // div.style.position = 'absolute'
+        // for(let i = 0; i < 100; i++){
+        //     setTimeout(_ => div.style.left = `${i}px`, 2000)
+        //     console.log(i, 'oi')
+        // }
+
+        div.style.animation = 'giro 2s ease infinite'
+    }
+</script>
+</html>

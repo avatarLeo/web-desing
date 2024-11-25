@@ -1,0 +1,20 @@
+.caixa{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(6, 80px);
+    grid-template-rows: repeat(2, 50px);
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: start;
+}
+.child-2{
+    align-self: flex-end;
+    justify-self: flex-start;
+}
+
+
+.item{
+    background-color: aquamarine;
+    border: 1px solid yellow;
+}

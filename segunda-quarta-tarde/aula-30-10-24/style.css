@@ -1,0 +1,11 @@
+.caixa{
+    height: 100px;
+    width: 50px;
+    background-color: antiquewhite;
+}
+
+@keyframes giro {
+    to {
+        transform: rotate(360deg);
+    }
+}

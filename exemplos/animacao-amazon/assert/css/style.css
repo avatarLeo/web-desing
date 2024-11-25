@@ -1,0 +1,68 @@
+.container img {
+    width: 100%;
+    position: relative;
+}
+
+.content{
+    color: #fff;
+    position: absolute;
+    z-index: 1;
+    left: 100px;
+    top: 100px;
+}
+
+.content button{
+    margin-top: 200px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(99, 93, 93);
+    color: #fff;
+    position: relative;
+    border: none;
+    
+}
+
+.info{
+    background-color: #fff;
+    border-radius: 5px;
+    color: black;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    transform: scale(0.2);
+    position: absolute;
+    opacity: 0;
+    top: -30px;
+    left: -30px;
+}
+
+.info div {
+    margin: 20px;
+}
+
+.content button:hover .info{
+    animation: show 200ms ease-out forwards;
+}
+
+.content button:hover{
+    background-color: #fff;
+    color: black;
+    cursor: pointer;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 600,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+@keyframes show {
+    to{
+        transform: scale(1.1) translateY(-15px);
+        opacity: 1;
+    }
+    
+}

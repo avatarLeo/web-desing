@@ -1,0 +1,47 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+
+.button{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(122, 101, 101);
+    border-radius: 50%;
+    position: relative;
+}
+
+.button:hover{
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.button:hover .info{
+    animation: show 500ms forwards;
+}
+
+.info{
+    background-color: #fff;
+    width: 130px;
+    height: 30px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    opacity: 0;
+    top: -35px;
+    left: -10px;
+}
+
+@keyframes show {
+    0% {
+        transform: translateY(0) scale(0.1);   
+    } 100%{
+        transform: translateY(-20px) scale(1);
+        opacity: 1; 
+    }
+}

@@ -1,0 +1,16 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.faturar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 300px;
+    border-radius: 15px;
+    border: none;
+    background-color: #49FFBD;
+}

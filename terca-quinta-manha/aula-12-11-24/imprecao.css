@@ -1,0 +1,16 @@
+menu{
+    display: none;
+}
+
+main{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+section a{
+    color: black;
+    text-decoration: none;
+}
+
+section::after{
+    content: 'Autor: Anonimo. atualizado em 23/03/2018';
+}

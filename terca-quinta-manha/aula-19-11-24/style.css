@@ -1,0 +1,98 @@
+h1{
+    background-color: aqua;
+    transition: background-color 2s;
+}
+
+h1:hover{
+    background-color: rgb(255, 127, 170);
+}
+.degrade{
+    height: 400%;
+    background: linear-gradient(rgb(27, 248, 19), rgb(55, 0, 255));
+    background-size: 400%;
+    background-position: top;
+    animation: degrade-anumado 1s alternate infinite;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    animation-name: s;
+    animation-duration: 2s;
+    /* animation-iteration-count: infinite; */
+    animation-delay: 300ms;
+    /* animation-direction: alternate-reverse; */
+    animation-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86);
+    animation-fill-mode: both;
+    overflow: hidden;
+}
+.box:hover{
+    animation-play-state: paused;
+}
+
+@keyframes rodar {
+    0%{
+        transform: translateX(0) translateY(0);
+    }25%{
+        transform: translateX(0px) translateY(250px);
+    }50%{
+        transform: translateX(500px) translateY(250px);
+    }75%{
+        transform: translateX(500px) translateY(0px);
+    }100%{
+        transform: translateX(0) translateY(0);
+    }
+}
+
+@keyframes cair {
+    from{
+        transform: translateY(0);
+    }70%{
+        transform: translateY(250px);
+    }80%{
+        transform: translateY(200px);
+    }100%{
+        transform: translateY(250px);
+    }
+}
+
+@keyframes degrade-anumado {
+    to{
+        transform: translateY(10%);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @keyframes show {
+    0%{
+        transform: translate(0px, 0px);
+    }25%{
+        transform: translate(0px, 250px);
+    }50%{
+        transform: translate(500px, 250px);
+    }75%{
+        transform: translate(500px, 0px);
+    }100%{
+        transform: translate(0px, 0px);
+    }
+}
+ */

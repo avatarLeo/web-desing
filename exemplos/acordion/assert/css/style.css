@@ -1,0 +1,30 @@
+.main{
+    width: 90%;
+    margin: 100px auto;
+}
+
+.acordion{
+    background-color: #ccc;
+    padding: 0px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.acordion img{
+    width: 50px;
+    object-fit: contain;
+    transform: rotate(180deg);
+    /* animation: spinning 1s forwards; */
+}
+
+.panel{
+    display: none;
+    transition: all 3s;
+}
+
+@keyframes spinning {
+    to{
+        transform: rotate(0deg);
+    }
+}
+

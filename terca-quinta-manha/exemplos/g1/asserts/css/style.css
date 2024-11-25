@@ -5,8 +5,25 @@ body{
 
 .links li{
     display: inline;
-    margin: 20px 0px 20px 10px;
+    padding: 20px 0px 20px 10px;
+    position: relative;
 }
+
+#link-1::after{
+    content: '';
+    width: 0%;
+    height: 5%;
+    background-color: #066BE4;
+    position: absolute;
+    left: 0;
+    bottom: 13px;
+    transition: 100ms;
+}
+
+#link-1:hover::after{
+    width: 100%;
+}
+
 .links{
     font-size: 20pt;
     font-weight: 800;
@@ -148,9 +165,14 @@ body{
     overflow: hidden;
 }
 
+.foto img:hover{
+    transform: scale(1.1);
+}
+
 .foto img{
     width: 100%;
     border-radius: 15px;
+    transition: 1s;
 }
 
 #bold{

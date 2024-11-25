@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .caixa{
+            display: grid;
+            height: 100vh;
+            grid-template-columns: 1.3fr 1fr 1fr;
+
+        }
+        .caixa a {
+            height: 100%;
+            color: black;
+            text-decoration: none;
+        }
+
+        .caixa a:hover{
+            background-color: rgb(142, 255, 127);
+            color: #FFF;
+            transform: scale(1.2);
+        }
+
+
+        .item{
+            border: 1px solid skyblue;
+            height: 100%;
+        }
+
+        .filho-1{
+            grid-row-start:1 ;
+            grid-row-end:4;
+            /* grid-column-start: 1;
+            grid-column-end: 3; */
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="caixa">
+        <div class="item filho-1">1</div>
+        <a href="baixar.html">
+            <div class="item">Baixe o meu livro</div>
+        </a>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+        <div class="item">7</div>
+    </div>
+</body>
+</html>

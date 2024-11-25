@@ -44,7 +44,7 @@ article{
     width: 50%;
     padding: 10px;
     margin: 200px auto;
-    backdrop-filter: blur(1px);
+    backdrop-filter: blur(15px);
     border-radius: 15px;
     color: #141E26;
     text-align: center;

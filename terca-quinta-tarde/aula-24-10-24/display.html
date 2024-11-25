@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .item{
+            height: 100px;
+            background-color: blueviolet;
+            border: 2px solid red; 
+            color: #fff;
+            font-size: 20px;
+        }
+
+        .container{
+            background-color: yellow;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            height: 100vh;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .item:nth-child(1){
+            order: 2;
+            flex-grow: 1;
+            align-self: flex-start;
+        }
+        .item:nth-child(2){
+            order: 1;
+            flex-grow: 2;
+        }
+        .item:nth-child(3){
+            order: 4;
+            flex-grow: 1;
+        }
+        .item:nth-child(4){
+            order: 2;
+            flex-grow: 3;
+            align-self: flex-end;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">item-1</div>
+        <div class="item">item-2</div>
+        <div class="item">item-3</div>
+        <div class="item">item-4</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+h1{
+    background-color: red;
+}
+
+@media print {
+    h1{
+        background-color: blue;
+        text-transform: uppercase;
+    }
+}
+
+@media (any-hover: hover){
+    h1:hover{
+        background-color: aqua;
+    }
+}
+
+
+/*posso definir um estilo de acordo com a orientação da tela, existe dois valores: portrait e landscape
+*/
+@media (orientation: portrait) {
+    h1{
+        font-size: 2rem;
+        background-color: blueviolet;
+    }
+}
+
+
+p {
+    color: black;
+  }
+  
+
+
+/*podemos definir um stilo para telas no modo tela cheia*/
+@media (display-mode: fullscreen){
+    body{
+        background-color: yellow;
+    }
+}

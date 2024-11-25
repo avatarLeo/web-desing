@@ -1,0 +1,21 @@
+.fundo{
+    height: 100vh;
+    background-image: url(img/fundo.jpg);
+    background-size: cover;
+}
+
+body{
+    margin: 0;
+}
+
+.links a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20pt;
+    padding: 10px;
+    
+}
+
+section{
+    height: 100vh;
+}

@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: o;
+    box-sizing: border-box;
+}
+
+
+.fundo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100vh;
+    background-image: url(img/fundo.jpg);
+    background-size: cover;
+    animation: zoom 2s forwards;
+    
+}
+
+h1{
+    color: white;
+    font-size: 25pt;
+}
+
+.container{
+    display: grid;
+    grid-template-rows: 130px 130px;
+    grid-template-columns: repeat(auto-fit, 120px);
+    backdrop-filter: blur(50px);
+    justify-content: center;
+    width: 50%;
+    padding: 10px;
+    border-radius: 15px;
+    max-width: 450px;
+}
+
+@media (max-width: 800px) {
+    .container{
+    }
+}
+
+.items{
+    animation: anima 2s;
+}
+
+@keyframes anima {
+    from{
+        transform: scale(0.9);
+    } 50%{
+        transform: scale(1);
+    }80%{
+        transform: scale(1.1);
+    }100%{
+        transform: scale(1);
+    }
+}
+
+@keyframes zoom {
+    from{
+        background-position: top;
+        transform: scale(1);
+    } 80%{
+        transform: scale(1.2);
+        background-position: center;
+    }100%{
+        transform: scale(1);
+        background-position: center;
+
+    }
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tela.css" media="screen">
+    <link rel="stylesheet" href="imprecao.css" media="print">
+    <link rel="stylesheet" href="retrado.css" media="screen and (orientation: landscape)">
+    <!-- <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 600px)"> -->
+    <title>MIdia Query</title>
+</head>
+<body>
+    <header>
+        <h1>Minhas Notíciais</h1>
+        <label for="menu" onclick="showMenu()">
+            <div class="menu">
+                <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#FFFFFF"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+            </div>
+        </label>
+        <input id="menu" type="checkbox">
+        <menu id="links">
+            <li>Home</li>
+            <li>Contact</li>
+            <li>Abaut</li>
+        </menu>
+    </header>
+    <main>
+        <section>
+            <h2>Minha primeira notícia</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus ex corporis vel hic culpa tenetur veniam dolorem. Illo, debitis quod, unde architecto <a href="#">assumenda</a> fugit facilis cupiditate aut aliquam et odit.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, sequi fugit! Eligendi harum atque dolorum unde pariatur aliquam officiis, ullam accusantium tenetur ipsum porro, quam quae expedita repellendus eum fugit.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto cum iure magnam minus. Voluptatum laborum illo itaque excepturi, alias molestiae amet deleniti corrupti dolorem perspiciatis aut molestias, eveniet tempora repellendus!</p>
+        </section>
+    </main>
+    <script>
+        function showMenu(){
+            let menu = document.getElementById('menu')
+
+            let links = document.getElementById('links')
+
+
+            if(!menu.checked){
+                links.classList.add('show')
+            }else{
+                links.classList.remove('show')
+            }
+        }
+        
+    </script>
+</body>
+</html>

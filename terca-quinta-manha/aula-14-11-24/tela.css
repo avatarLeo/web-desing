@@ -1,0 +1,45 @@
+main{
+    width: 80%;
+    margin: auto;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+menu>li{
+    list-style: block;
+    display: inline;
+    padding: 10px;
+    font-size: 18pt;
+}
+#menu{
+    display: none;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ccc;
+    padding: 0 10px 0 10px;
+}
+
+.menu{
+    display: none;
+}
+
+@media (max-width: 360px) {
+    body{
+        background-color: chartreuse;
+    }
+}
+
+@media (min-width: 361px) and (max-width: 900px) {
+    body{
+        background-color: yellow;
+    }
+}
+
+@media (min-width: 900px) {
+    body{
+        background-color: blueviolet;
+    }
+}

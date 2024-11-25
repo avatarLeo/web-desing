@@ -1,0 +1,27 @@
+body{
+    background-color: bisque;
+}
+
+menu{
+    display: none;
+    position: absolute;
+    bottom: -150px;
+    right: 0;
+    background-color: #ccc;
+    padding: 0;
+}
+menu li{
+    display: block;
+    text-align: center;
+}
+header{
+    position: relative;
+}
+
+.show{
+    display: block;
+}
+
+.menu{
+    display: block;
+}
